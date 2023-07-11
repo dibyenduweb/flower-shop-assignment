@@ -131,7 +131,7 @@ body {
   width: 70px;
   height: 70px;
 }
-.deal-section{
+.deal-section {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -140,51 +140,100 @@ body {
   margin-top: 50px;
   background: rgba(229, 84, 115, 0.05);
 }
-.deal-container{
-  width:500px;
+.deal-container {
+  width: 500px;
 }
-.deal-title{
-color: #272727;
-font-size: 35px;
-font-weight: bold;
-}
-.deal-description{
-color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-size: 14px;
-font-weight: 400;
-line-height: 20px;
-}
-.deal-image{
-  width: 318px;
-height: 420px;
-margin-right: 150px;
-}
-.insta-title{
+.deal-title {
   color: #272727;
-text-align: center;
-font-size: 40px;
-font-weight: 800;
-margin-top: 40px;
+  font-size: 35px;
+  font-weight: bold;
 }
-.insta-description{
-color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-size: 18px;
-font-weight: 400;
-width: 650px;
-margin-left: 430px;
-margin-top: 10px;
+.deal-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
 }
-.insta-container{
+.deal-image {
+  width: 318px;
+  height: 420px;
+  margin-right: 150px;
+}
+.insta-title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  margin-top: 40px;
+}
+.insta-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  width: 650px;
+  margin-left: 430px;
+  margin-top: 10px;
+}
+.insta-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 20px 150px;
   gap: 20px;
 }
-.insta-img{
+.insta-img {
   width: 300px;
   height: 351px;
   background: lightgray;
+}
+.get-section{
+    display: flex;
+    align-items: center;
+    background-image: url(./asset/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1100px;
+    width: 1440px;
+    height: 440px;
+
+}
+.get-container{
+  width: 40%;
+  text-align: center;
+  margin: 500px;
+}
+.get-title{
+  color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+}
+
+.get-description{
+  color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+}
+
+.get-form, form{
+  display: flex;
+}
+.get-input{
+width: 390px;
+height: 60px;
+border: none;
+background: #FFF;
+}
+.get-btn{
+border-radius: 8px;
+background: #E55473;
+width: 150px;
+height: 60px;
+border: none;
+margin-left: 20px;
+color: white;
 }
